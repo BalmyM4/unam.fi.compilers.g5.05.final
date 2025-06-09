@@ -75,9 +75,11 @@ int main() {
 
 ## Testing
 
-Run tests with:
 ```bash
-python tests/test_compiler.py
+python compiler.py if_test.c if_test.s
+python compiler.py for_test.c for_test.s
+python compiler.py test.c test.s
+python compiler.py extra_test.c extra_test.s
 ```
 
 ## Requirements
